@@ -72,4 +72,3 @@ SHRP_REC_TYPE := normal
 SHRP_DEVICE_TYPE := A_Only
 SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
-SHRP_DARK := true
