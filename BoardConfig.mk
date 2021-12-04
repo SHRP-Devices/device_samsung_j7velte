@@ -29,6 +29,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 32000000
 TARGET_RECOVERY_FSTAB := device/samsung/j7velte/recovery.fstab
 
 # TWRP specific build flags
